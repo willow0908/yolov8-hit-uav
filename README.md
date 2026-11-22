@@ -50,18 +50,6 @@ ReviewKD 通过注意力融合模块（ABF）让学生浅层特征逐层回顾�
 - **帧级漏检率**：单帧内存在未检出目标的概率
 - **F2分数**：Recall 权重是 Precision 的 4 倍
 
-## 项目结构
-yolov8-hit-uav/
-├── data/
-│ └── README.md # 数据集来源与下载方式
-├── output/
-│ ├── pr_curve.png # PR曲线
-│ ├── confusion_matrix.png # 混淆矩阵
-│ └── ...
-├── notebook/
-│ └── train_evaluate.py # 训练+评估代码
-├── README.md
-└── requirements.txt
 
 ## 环境配置
 
